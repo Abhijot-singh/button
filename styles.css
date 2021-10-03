@@ -1,0 +1,119 @@
+.area{
+    position: relative;
+    display: flex;
+    margin-left: 50%;
+    margin-top: 50%;
+    transform: scaleY(-1);
+}
+.circle-btn{
+    background-color: #ffd700;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    border: none;
+}
+.main{
+    cursor: pointer;
+    
+}
+.svg{
+    box-shadow: none;
+    transition: all .5s cubic-bezier(0.4, 0.0, 0.2, 1);
+    transform: rotate(90deg);
+} 
+.svg_rotate {
+    transform: rotate(225deg);
+}
+.buttons{
+    position: absolute;
+    display: flex;
+    flex-direction: column-reverse;
+    z-index:50%;
+}
+.btn{
+    position: absolute;
+    background-color: #ffd700;
+    height: 55px;
+    width: 55px;
+    border-radius:50%;
+    bottom: none ;
+    top:0;
+}
+
+.trans1{
+    position: relative; 
+    animation: floatBubble .3s normal ease-out;
+}
+@-webkit-keyframes floatBubble{
+    to {
+        transform: translateY(0%);
+    }
+    from {
+        transform: translateY(-15%);
+    }
+}
+
+.trans2{
+    position: relative;
+    animation: floatBubble .3s normal ease-out;
+}
+@-webkit-keyframes floatBubble{
+    to {
+        transform: translateY(0%);
+    }
+    from {
+        transform: translateY(-25%);
+    }
+}
+
+.trans3{
+    position: relative;
+    animation: floatBubble .3s normal ease-out;
+}
+@-webkit-keyframes floatBubble{
+    to {
+        transform: translateY(0%);
+    }
+    from {
+        transform: translateY(-35%);
+    }
+}
+
+.trans6{
+    position: relative;
+    animation: floatBubble .3s normal ease-out;
+}
+@-webkit-keyframes floatBubble{
+    to {
+        transform: translateY(-35%);
+    }
+    from {
+        transform: translateY(0%);
+    }
+}
+
+.trans5{
+    position: relative;
+    animation: floatBubble .3s normal ease-out;
+}
+@-webkit-keyframes floatBubble{
+    to {
+        transform: translateY(-25%);
+    }
+    from {
+        transform: translateY(0%);
+    }
+}
+
+.trans4{
+    position: relative; 
+    animation: floatBubble .3s normal ease-out;
+}
+@-webkit-keyframes floatBubble{
+    to {
+        transform: translateY(-15%);
+    }
+    from {
+        transform: translateY(0%);
+    }
+}
